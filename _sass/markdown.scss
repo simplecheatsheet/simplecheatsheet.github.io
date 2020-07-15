@@ -1,0 +1,22 @@
+.markdown-body {
+
+    h1, h2, h3 {
+        margin-top: $spacer-6;
+
+        &:first-child {
+            margin-top: 0;
+            margin-bottom: $spacer-6;
+        }
+    }
+}
+
+code {
+    background-color: #000;
+    font-style: normal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    line-height: 145%;
+}

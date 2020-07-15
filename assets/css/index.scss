@@ -1,0 +1,63 @@
+---
+---
+
+@import "@primer/css/index.scss";
+@import "pages/home.scss";
+@import "colors.scss";
+@import "markdown.scss";
+@import "switcher.scss";
+@import "addtocalendar.scss";
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.featurette {
+    padding-top: $spacer * 10;
+    padding-bottom: $spacer * 10;
+}
+
+.octicon {
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+/*
+ * Extend the footer to the bottom of the page,
+ * even if there’s not enough content to make the page scroll.
+ */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#toc .toc-wrap {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.has-sheet {
+    min-height: 300px;
+
+    h2 {
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 90px;
+    }
+
+    .field {
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+
+    .field-sheet {
+        margin-bottom: 1.5rem;
+    }
+}
