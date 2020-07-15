@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/index.css?d=1594809449">
+    <link rel="stylesheet" href="/assets/css/syntax.css?d=1594809449">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Django Cheat Sheet | Simple Cheat Sheet</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Django Cheat Sheet" />
+<meta name="author" content="comficker" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Made for perfectionists with deadlines." />
+<meta property="og:description" content="Made for perfectionists with deadlines." />
+<link rel="canonical" href="http://localhost:4000/apps/django/" />
+<meta property="og:url" content="http://localhost:4000/apps/django/" />
+<meta property="og:site_name" content="Simple Cheat Sheet" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-15T17:37:29+07:00" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"comficker"},"url":"http://localhost:4000/apps/django/","headline":"Django Cheat Sheet","dateModified":"2020-07-15T17:37:29+07:00","datePublished":"2020-07-15T17:37:29+07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/apps/django/"},"description":"Made for perfectionists with deadlines.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <meta name="twitter:site" content="@ProbotTheRobot"/>
+    <meta property="twitter:card" content="summary_large_image"/>
+
+    
+    <meta property="og:image" content="http://localhost:4000/%0A%20%20%20%20/assets/card.png" />
+    <meta property="og:image:height" content="1280"/>
+    <meta property="og:image:width" content="630"/>
+    
+    <meta property="twitter:image:alt" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."/>
+    <meta property="og:image:type" content="image/png"/>
+
+    <meta property="twitter:image" content="http://localhost:4000/%0A%20%20%20%20/assets/card.png" />
+    <meta property="twitter:image:height" content="1280"/>
+    <meta property="twitter:image:width" content="630"/>
+    <meta property="twitter:image:alt" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."/>
+    <meta property="twitter:image:type" content="image/png"/>
+
+    <meta property="og:type" content="website"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Cutive+Mono|Ubuntu" rel="stylesheet">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js" charset="utf-8"></script>
+    <script defer src="/assets/js/office-hours.js" charset="utf-8"></script>
+</head>
+<body>
+<header class="header">
+    <div class="container-lg px-3">
+        <div class="py-4 d-flex flex-justify-between">
+            <a href="/" class="no-underline text-uppercase text-brand-blue-dark d-flex flex-items-center">
+                <svg height="16" class="octicon octicon-chevron-left octicon octicon-chevron-left v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.78 12.78a.75.75 0 01-1.06 0L4.47 8.53a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L6.06 8l3.72 3.72a.75.75 0 010 1.06z"></path></svg>
+                <span class="v-align-middle">Home</span>
+            </a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container-lg px-3" style="flex: 0">
+    <header class="py-6">
+        <div class="pb-0 pt-md-4 py-lg-6">
+            <div class="d-md-flex flex-md-items-center flex-md-row-reverse flex-md-justify-center gutter-md-spacious">
+                <div class="col-md-8 text-center text-md-left">
+                    <h1 class="alt-h2 text-uppercase lh-condensed text-brand-blue">Django Cheat Sheet</h1>
+                    <h2 class="alt-h2 lh-condensed">Made for perfectionists with deadlines.
+                    </h2>
+                </div>
+                <div class="col-3 mx-auto mx-md-0 offset-md-1 text-center text-md-right">
+                    <img src="/assets/logo.png" class="width-fit" alt="Probot logo">
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="bg-gray-light border-top border-gray-light has-sheet">
+    <div class="container-lg px-3 py-6 page-section text-center">
+        <h2 class="f00-light text-center"></h2>
+        <p class="lead text-center col-md-7 col-sm-10 mx-auto"></p>
+        
+        <div class="field-sheet">
+            <div class="field">Start a project</div>
+            <code class="value">django-admin startproject project_name</code>
+        </div>
+        
+    </div>
+</div>
+
+<div class="bg-gray-light border-top border-gray-light has-sheet">
+    <div class="container-lg px-3 py-6 page-section text-center">
+        <h2 class="f00-light text-center">Start the server</h2>
+        <p class="lead text-center col-md-7 col-sm-10 mx-auto"></p>
+        
+        <div class="field-sheet">
+            <div class="field">cd into your project's root directory* to start Django server the root is where your manage.py lives</div>
+            <code class="value">python manage.py runserver</code>
+        </div>
+        
+    </div>
+</div>
+
+<div class="bg-gray-light border-top border-gray-light has-sheet">
+    <div class="container-lg px-3 py-6 page-section text-center">
+        <h2 class="f00-light text-center">create an app</h2>
+        <p class="lead text-center col-md-7 col-sm-10 mx-auto"></p>
+        
+        <div class="field-sheet">
+            <div class="field">An app is a directory containing code functionality able to live by itself apart from the other parts of the website</div>
+            <code class="value">python manage.py startapp app_name</code>
+        </div>
+        
+    </div>
+</div>
+
+<div class="bg-gray-light border-top border-gray-light has-sheet">
+    <div class="container-lg px-3 py-6 page-section text-center">
+        <h2 class="f00-light text-center">set urlconf</h2>
+        <p class="lead text-center col-md-7 col-sm-10 mx-auto"></p>
+        
+        <div class="field-sheet">
+            <div class="field">Create a file called urls.py in your app directory and set urlpatterns</div>
+            <code class="value">urlpatterns = \[ url(r'^$', views.index, name='index'), ]</code>
+        </div>
+        
+        <div class="field-sheet">
+            <div class="field">Add urls.py in your app's directory and register to let it route its internal link</div>
+            <code class="value">url(r'^app_name/', include('app_name.urls'))</code>
+        </div>
+        
+    </div>
+</div>
+
+
+</main>
+<footer>
+    <div class="bg-gray text-gray border-top">
+    
+</div>
+
+
+</footer>
+</body>
+</html>
