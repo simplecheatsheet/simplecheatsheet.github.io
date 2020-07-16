@@ -2,6 +2,7 @@
 title: Vim cheat Sheet
 description: Vim is a very efficient text editor. This reference was made for Vim 8.0.
 slug: vim
+source: http://simplecheatsheet.com/tag/vim-cheat-sheet/
 authors:
 - comficker
 updated: 2020-07-15 19:57:34 UTC

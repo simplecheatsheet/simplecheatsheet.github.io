@@ -2,6 +2,7 @@
 title: Python cheat Sheet
 description: Python is an interpreted, high-level, general-purpose programming language.
 slug: python
+source: http://simplecheatsheet.com/tag/python-cheat-sheet/
 authors:
 - comficker
 updated: 2020-07-16 19:57:34 UTC
@@ -25,8 +26,6 @@ sheets:
        value: list = [ 'abcd', 786 , 2.23, 'john', 70.2 ]
      - field: Tuples
        value: tuple = ( 'abcd', 786 , 2.23, 'john', 70.2  )
-     - field: Dictionary
-       value: tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
 - title: Operators
   fields:
      - field: If the values of two operands are equal, then the condition becomes true.	

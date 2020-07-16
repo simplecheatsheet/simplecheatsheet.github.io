@@ -2,6 +2,7 @@
 title: Django Cheat Sheet
 description: Made for perfectionists with deadlines.
 slug: django
+source: http://simplecheatsheet.com/tag/django-cheat-sheet/
 authors:
 - comficker
 updated: 2020-07-08 19:57:34 UTC
